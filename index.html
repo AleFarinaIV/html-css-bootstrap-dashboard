@@ -100,20 +100,57 @@
                       <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body">
-                      <div class="">
-                        Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
-                      </div>
-                      <div class="dropdown mt-3">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-                          Dropdown button
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </div>
+                    <div class="offcanvas-body text-start">
+                      <form>
+                        <div class="row">
+                          <div class="col-12 col-md-6">
+                            <label for="">Nome</label>
+                            <input class="form-control" type="text" name="" id="">
+                          </div>
+                          <div class=" col-12 col-md-6">
+                            <label for="">Cognome</label>
+                            <input class="form-control" type="text" name="" id="">
+                          </div>
+                          <div class=" col-12 col-md-6">
+                            <label for="">Email</label>
+                            <div class="input-group">
+                              <span class="input-group-text" id="basic-addon1">@</span>
+                              <input class="form-control" type="email" name="" id="">
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <label for="">Password</label>
+                            <input class="form-control" type="password" name="" id="">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <label for="">Indirizzo</label>
+                            <input class="form-control" type="text" name="" id="">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class=" col-12 col-md-6">
+                            <label for="">Città</label>
+                            <input class="form-control" type="text" name="" id="">
+                          </div>
+                          <div class=" col-12 col-md-4">
+                            <label for="">Nome</label>
+                            <select class="form-control" name="" id="">
+                              <option selected value="">Scegli...</option>
+                            </select>
+                          </div>
+                          <div class=" col-12 col-md-2">
+                            <label for="">Cap</label>
+                            <input class="form-control" type="number" name="" id="">
+                          </div>
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
                     </div>
                   </div>
                   <!-- Modificare offcanvas con la form, metterlo a tutto schermo in tablet -->
@@ -282,11 +319,11 @@
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
-                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Come aggiungere un nuovo studente?
                       </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                       <div class="accordion-body">
                         Clicca sul + in alto nella sezione blu.
                       </div>
