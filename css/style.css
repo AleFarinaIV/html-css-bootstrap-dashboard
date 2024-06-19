@@ -9,7 +9,7 @@
 }
 
 .bottom-section {
-    height: calc(100vh - 69px);
+    height: calc(100vh - 66px);
     width: 100%;
 }
 
@@ -41,4 +41,22 @@
 
 .lightblue-bg {
     background-color: rgb(1, 60, 255);
+}
+
+.circle-bg {
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-orange {
+    color: orange;
+}
+
+.bg-green {
+    background-color: green;
 }
