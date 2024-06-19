@@ -15,7 +15,6 @@
 
 .main-content {
     width: calc(100vw - 50px);
-    background-color: rgb(5, 153, 37);
     overflow-y: scroll;
 }
 
@@ -43,15 +42,16 @@
     background-color: rgb(1, 60, 255);
 }
 
-.circle-bg {
-    background-color: rgb(255, 81, 0);
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    display: flex;
+.circle {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-}
+    margin-right: 5px; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 81, 0);
+  }
 
 .c-orange {
     color: orange;
@@ -60,3 +60,20 @@
 .bg-green {
     background-color: green;
 }
+
+
+
+/* test cases */
+
+
+.testtest {
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+  }
+  /* .fa-code {
+    font-size: 16px; 
+  } */
+  td {
+    vertical-align: middle; 
+  }
